@@ -11,6 +11,11 @@ logging:
     io:
       pivotal: DEBUG
 
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
+
 greeting:
   displayFortune: true
 
